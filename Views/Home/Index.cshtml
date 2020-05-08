@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Quite Interesting Quiz</h1>
+    <p>Welcome to the Quite Interesting Quiz where you can create a question, take a test or review feedback</p>
+</div>
+<div>
+    <a  asp-controller="Home" asp-action="CreateQuestion">Create Question</a> <hr/> 
+    <a href="https://docs.microsoft.com/aspnet/core">Take test</a><hr/>
+    <a  asp-controller="Home" asp-action="LeaderBoard">Leaderboard</a><hr/>
+</div>
